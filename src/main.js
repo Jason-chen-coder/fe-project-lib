@@ -5,11 +5,11 @@ import './styles/theme/index.css'
 import './styles/scroll.less'
 import 'highlight.js/styles/tomorrow.css'
 import ElementUI from 'element-ui'
-import MgiCloudLearnLib from '../packages/index'
+import FeCloudLearnLib from '../packages/index'
 Vue.config.productionTip = false
 import DemoBlock from './DemoBlock.vue'
 
-Vue.use(MgiCloudLearnLib)
+Vue.use(FeCloudLearnLib)
 Vue.use(ElementUI)
 Vue.component('demo-block', DemoBlock)
 

@@ -1,13 +1,13 @@
 {
-  "name": "mgi-cloud-learn-lib",
+  "name": "fe-project-lib",
   "version": "0.1.1",
   "private": true,
-  "main": "./lib/mgi-cloud-learn-ui.common.js",
+  "main": "./lib/fe-project-lib.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name mgi-cloud-learn-ui --dest lib ./packages/index.js pack"
+    "lib": "vue-cli-service build --target lib --name fe-project-lib --dest lib ./packages/index.js pack"
   },
   "dependencies": {
     "@wangeditor/editor": "^5.1.21",

@@ -1,4 +1,4 @@
-# mgi-cloud-learn-lib
+# fe-project-lib
 
 ## 一、开发模式：
 ### 1.安装依赖
@@ -24,12 +24,12 @@ yarn link
 ### 3.连接库
 到目标项目录执行
 ```
-yarn link mgi-cloud-learn-lib
+yarn link fe-project-lib
 ```
 ### 4.目标项目引用
 ```JavaScript
-import mgiCloudLearnLib from 'mgi-cloud-learn-lib'
-Vue.use(mgiCloudLearnLib)
+import CloudLearnLib from 'fe-project-lib'
+Vue.use(FeCloudLearnLib)
 ```
 
 ### Customize configuration
