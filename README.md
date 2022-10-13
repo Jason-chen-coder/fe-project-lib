@@ -28,7 +28,7 @@ yarn link fe-project-lib
 ```
 ### 4.目标项目引用
 ```JavaScript
-import CloudLearnLib from 'fe-project-lib'
+import FeCloudLearnLib from 'fe-project-lib'
 Vue.use(FeCloudLearnLib)
 ```
 
